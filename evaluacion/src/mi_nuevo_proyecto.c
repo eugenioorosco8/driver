@@ -1,7 +1,7 @@
-/* Copyright 2015, Eduardo Filomena, Juan Manuel Reta
+/* Copyright 2015, Eugenio Orosco
  * All rights reserved.
  *
- * This file is part of CIAA Firmware.
+ * This file is not part of CIAA Firmware.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -59,8 +59,8 @@
 
 /*==================[inclusions]=============================================*/
 #include "mi_nuevo_proyecto.h"       /* <= own header */
-#include "led.h"
-#include "switch.h"
+#include "ledDriver.h"
+#include "TeclasDriver.h"
 #include "chip.h"
 #include "TimerDriver.h"
 #include "AdcDriver.h"
