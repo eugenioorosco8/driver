@@ -1,8 +1,8 @@
 /*
- * led.c
+ * TimerDriver.c
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 #include "TimerDriver.h"
 

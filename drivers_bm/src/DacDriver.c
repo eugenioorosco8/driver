@@ -1,8 +1,8 @@
 /*
- * led.c
+ * DacDriver.c
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 #include "chip.h"
 #include "DacDriver.h"

@@ -1,11 +1,11 @@
 /*
- * led.h
+ * ledDriver.h
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 
-#ifndef LED_H_
+#ifndef LEDDRIVER_H_
 #define LED_H_
 
 #define LED0R 1
@@ -25,4 +25,4 @@ void ToogleLed(uint8_t);
 
 
 
-#endif /* LED_H_ */
+#endif /* LEDDRIVER_H_ */

@@ -1,8 +1,8 @@
 /*
- * led.h
+ * DacDriver.h
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 
 #ifndef DACDRIVER_H_
@@ -21,4 +21,4 @@ void TriangActualiza(void);
 
 
 
-#endif /* LED_H_ */
+#endif /* DACDRIVER_H_ */

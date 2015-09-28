@@ -1,11 +1,11 @@
 /*
- * led.c
+ * TeclasDriver.c
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 #include "chip.h"
-#include "switch.h"
+#include "TeclasDriver.h"
 
 
 void InicializarTeclas(void)

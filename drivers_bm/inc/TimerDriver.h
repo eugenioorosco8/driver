@@ -1,16 +1,14 @@
 /*
- * led.h
+ * TimerDriver.h
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 
 #ifndef TIMERDRIVER_H_
 #define TIMERDRIVER_H_
 
 #include "chip.h"
-#include "led.h"
-#include "switch.h"
 
 void InicializarTimer(uint8_t);
 
@@ -22,4 +20,4 @@ uint32_t GetTimer(void);
 
 
 
-#endif /* LED_H_ */
+#endif /* TIMERDRIVER_H_ */

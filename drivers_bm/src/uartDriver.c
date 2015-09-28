@@ -2,7 +2,7 @@
  * uartDriver.c
  *
  *  Created on: 21/9/2015
- *      Author: eugenioorosco8
+ *      Author: Eugenio Orosco
  */
 
 #include "chip.h"

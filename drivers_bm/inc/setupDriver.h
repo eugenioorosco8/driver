@@ -1,8 +1,8 @@
 /*
- * led.h
+ * setupDriver.h
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 
 #ifndef SETUPDRIVER_H_
@@ -16,4 +16,4 @@ void delayNoelegante(uint32_t);
 
 
 
-#endif /* LED_H_ */
+#endif /* SETUPDRIVER_H_ */

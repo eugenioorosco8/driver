@@ -2,7 +2,7 @@
  * uartDriver.h
  *
  *  Created on: 21/9/2015
- *      Author: eugenioorosco8
+ *      Author: Eugenio Orosco
  */
 
 #ifndef UARTDRIVER_H_
@@ -21,4 +21,4 @@ void MySendString(void *, uint16_t);
 uint8_t MyReceiveChar(void);
 
 
-#endif /* LED_H_ */
+#endif /* UARTDRIVER_H_ */

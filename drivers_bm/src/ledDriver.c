@@ -1,11 +1,11 @@
 /*
- * led.c
+ * ledDriver.c
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 #include "chip.h"
-#include "led.h"
+#include "ledDriver.h"
 
 
 void InicializarLeds(void)

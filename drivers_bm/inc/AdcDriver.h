@@ -1,8 +1,8 @@
 /*
- * led.h
+ * AdcDriver.h
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 
 #ifndef ADCCDRIVER_H_
@@ -18,4 +18,4 @@ uint16_t AdcPolling(void);
 
 
 
-#endif /* LED_H_ */
+#endif /* ADCDRIVER_H_ */

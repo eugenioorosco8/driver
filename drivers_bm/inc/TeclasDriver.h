@@ -1,8 +1,8 @@
 /*
- * led.h
+ * TeclasDriver.h
  *
  *  Created on: 21/9/2015
- *      Author: Usuario
+ *      Author: Eugenio Orosco
  */
 
 #ifndef SWITCH_H_
@@ -24,4 +24,4 @@ uint8_t LeerTeclas(void);
 
 
 
-#endif /* LED_H_ */
+#endif /* SWITCH_H_ */
