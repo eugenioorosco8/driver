@@ -47,11 +47,14 @@ void InicializarIntUart(uint8_t RxTx){
 	NVIC_ClearPendingIRQ(USART3_IRQn);
 	NVIC_EnableIRQ(USART3_IRQn);
 	if(RxTx == INT_RX){
-
+		 Chip_UART_IntEnable(canal_global, UART_IER_RBRINT);
 	}
 	if(RxTx == INT_TX){
-
+		 Chip_UART_IntEnable(canal_global, UART_IER_THREINT);
 	}
+	if(RxTx == INT_TX|INT_RX){
+			 Chip_UART_IntEnable(canal_global, UART_IER_RBRINT|UART_IER_THREINT);
+		}
 }
 
 void SendChar(uint8_t data){
@@ -62,6 +65,6 @@ void MySendString(void *data, uint16_t numBytes){
 	Chip_UART_SendBlocking(canal_global, data, numBytes);
 }
 
-uint8_t MyReceiveChar(void){
-	return Chip_UART_ReadByte(canal_global);
+void MyReceiveChar(void *data){
+	Chip_UART_ReadBlocking(canal_global, data, 1);
 }

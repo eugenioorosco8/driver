@@ -39,7 +39,7 @@ void TriangActualiza(void){
 	static uint32_t TimerValue_old;
 	static uint16_t value_tmp;
 	uint32_t TimerValue = GetTimer();
-	if(TimerValue_old != TimerValue){
+	if(TimerValue_old != TimerValue){  //Esta condicion permite usarlo por pulling o interrupcion
 		value_tmp = rate_max * TimerValue;
 		ActualizarDac_mV(value_tmp);
 	}

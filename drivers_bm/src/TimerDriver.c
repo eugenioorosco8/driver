@@ -16,6 +16,7 @@ void InicializarTimer(uint8_t TimerValue)
 	Chip_RIT_SetTimerInterval (LPC_RITIMER, TimerValue);
 	NVIC_ClearPendingIRQ(RITIMER_IRQn);
 	NVIC_EnableIRQ(RITIMER_IRQn);
+	ClearTimer();
 }
 
 void SetBaseTimer(uint8_t TimerValue){
